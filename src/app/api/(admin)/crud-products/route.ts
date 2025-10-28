@@ -1,9 +1,9 @@
 // Basically in this route an admin can perform all type of crud operations with the products inside inventory
-import { PrismaClient } from "@prisma/client";
+import prisma from "@/app/lib/prisma";
 import { cookies } from "next/headers";
 import { NextRequest, NextResponse } from "next/server";
 
-const prisma=new PrismaClient();
+
 
 
 //Function to check whether it is an admin or not

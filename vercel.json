@@ -1,7 +1,8 @@
 {
   "build": {
     "env": {
-      "PRISMA_GENERATE_SKIP_AUTOINSTALL": "false"
+      "PRISMA_GENERATE_SKIP_AUTOINSTALL": "false",
+      "installCommand": "npm install && prisma generate"
     }
   }
 }
