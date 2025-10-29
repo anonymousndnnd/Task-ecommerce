@@ -30,7 +30,7 @@ export default function NavHeader() {
       }
     };
     checkSession();
-  }, []);
+  }, [pathname]);
 
   // Logout: clear cookie on server
   const handleLogout = async () => {
